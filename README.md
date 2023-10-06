@@ -1,4 +1,4 @@
-# 2023-2-OSSPrac-Respond
+# 2023-2-OSSPrac-Respond-06
 
 ## 팀명 : 응답해조 (Respond)
 
