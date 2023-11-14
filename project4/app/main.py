@@ -12,6 +12,7 @@ def result():
         result = dict()
         result['Name'] = request.form.get('name')
         result['Student Number'] = request.form.get('StudentNumber')
+        result['University'] = request.form.get('university')
         result['Major'] = request.form.get('major')
         result['Gender'] = request.form.get('Gender')
         email = request.form.get('email')
@@ -21,4 +22,4 @@ def result():
         return render_template('result.html', result=result)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
