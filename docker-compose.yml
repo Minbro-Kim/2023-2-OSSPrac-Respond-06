@@ -3,6 +3,6 @@ version: '3.0'
 services:
   app:
     build: .
-    image: minhyeongkim/teamwork6:3.0
+    image: minhyeongkim/teamwork6
     ports:
       - "5000:5000"
